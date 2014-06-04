@@ -10,6 +10,16 @@
 		F21FCE95193DBE770093B2AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21FCE94193DBE770093B2AF /* AppDelegate.swift */; };
 		F21FCE97193DBE770093B2AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F21FCE96193DBE770093B2AF /* Images.xcassets */; };
 		F21FCEA3193DBE770093B2AF /* IntentionsWithSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21FCEA2193DBE770093B2AF /* IntentionsWithSwiftTests.swift */; };
+		F21FCEAD193DBEB60093B2AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21FCEAC193DBEB60093B2AF /* ViewController.swift */; };
+		F21FCEAF193DC08B0093B2AF /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21FCEAE193DC08B0093B2AF /* Person.swift */; };
+		F21FCEB1193DC4E20093B2AF /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21FCEB0193DC4E20093B2AF /* View.swift */; };
+		F21FCEB3193DC60A0093B2AF /* ModelContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21FCEB2193DC60A0093B2AF /* ModelContainer.swift */; };
+		F26069A7193E35DA00DC694F /* ReverseIntention.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26069A6193E35DA00DC694F /* ReverseIntention.swift */; };
+		F26069A9193E3A5E00DC694F /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26069A8193E3A5E00DC694F /* String+Extensions.swift */; };
+		F2BBDC31193EF820007BE369 /* ObserverIntention.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BBDC30193EF820007BE369 /* ObserverIntention.swift */; };
+		F2BBDC33193F0403007BE369 /* UppercaseIntention.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BBDC32193F0403007BE369 /* UppercaseIntention.swift */; };
+		F2BBDC37193F04F2007BE369 /* ChangeIntention.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BBDC36193F04F2007BE369 /* ChangeIntention.swift */; };
+		F2BBDC39193F2737007BE369 /* DismissOnEnterIntention.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BBDC38193F2737007BE369 /* DismissOnEnterIntention.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +40,16 @@
 		F21FCE9C193DBE770093B2AF /* IntentionsWithSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntentionsWithSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F21FCEA1193DBE770093B2AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F21FCEA2193DBE770093B2AF /* IntentionsWithSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentionsWithSwiftTests.swift; sourceTree = "<group>"; };
+		F21FCEAC193DBEB60093B2AF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F21FCEAE193DC08B0093B2AF /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		F21FCEB0193DC4E20093B2AF /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		F21FCEB2193DC60A0093B2AF /* ModelContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelContainer.swift; sourceTree = "<group>"; };
+		F26069A6193E35DA00DC694F /* ReverseIntention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseIntention.swift; sourceTree = "<group>"; };
+		F26069A8193E3A5E00DC694F /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		F2BBDC30193EF820007BE369 /* ObserverIntention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObserverIntention.swift; sourceTree = "<group>"; };
+		F2BBDC32193F0403007BE369 /* UppercaseIntention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UppercaseIntention.swift; sourceTree = "<group>"; };
+		F2BBDC36193F04F2007BE369 /* ChangeIntention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeIntention.swift; sourceTree = "<group>"; };
+		F2BBDC38193F2737007BE369 /* DismissOnEnterIntention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissOnEnterIntention.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +92,16 @@
 			isa = PBXGroup;
 			children = (
 				F21FCE94193DBE770093B2AF /* AppDelegate.swift */,
+				F21FCEAC193DBEB60093B2AF /* ViewController.swift */,
+				F21FCEB0193DC4E20093B2AF /* View.swift */,
+				F21FCEAE193DC08B0093B2AF /* Person.swift */,
+				F21FCEB2193DC60A0093B2AF /* ModelContainer.swift */,
+				F2BBDC36193F04F2007BE369 /* ChangeIntention.swift */,
+				F26069A6193E35DA00DC694F /* ReverseIntention.swift */,
+				F2BBDC32193F0403007BE369 /* UppercaseIntention.swift */,
+				F2BBDC38193F2737007BE369 /* DismissOnEnterIntention.swift */,
+				F2BBDC30193EF820007BE369 /* ObserverIntention.swift */,
+				F26069A8193E3A5E00DC694F /* String+Extensions.swift */,
 				F21FCE96193DBE770093B2AF /* Images.xcassets */,
 				F21FCE92193DBE770093B2AF /* Supporting Files */,
 			);
@@ -200,6 +230,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2BBDC39193F2737007BE369 /* DismissOnEnterIntention.swift in Sources */,
+				F2BBDC33193F0403007BE369 /* UppercaseIntention.swift in Sources */,
+				F21FCEB1193DC4E20093B2AF /* View.swift in Sources */,
+				F26069A9193E3A5E00DC694F /* String+Extensions.swift in Sources */,
+				F2BBDC31193EF820007BE369 /* ObserverIntention.swift in Sources */,
+				F26069A7193E35DA00DC694F /* ReverseIntention.swift in Sources */,
+				F2BBDC37193F04F2007BE369 /* ChangeIntention.swift in Sources */,
+				F21FCEB3193DC60A0093B2AF /* ModelContainer.swift in Sources */,
+				F21FCEAF193DC08B0093B2AF /* Person.swift in Sources */,
+				F21FCEAD193DBEB60093B2AF /* ViewController.swift in Sources */,
 				F21FCE95193DBE770093B2AF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -377,6 +417,7 @@
 				F21FCEA8193DBE770093B2AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F21FCEA9193DBE770093B2AF /* Build configuration list for PBXNativeTarget "IntentionsWithSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -385,6 +426,7 @@
 				F21FCEAB193DBE770093B2AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
