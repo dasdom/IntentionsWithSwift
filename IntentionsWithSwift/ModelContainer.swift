@@ -15,7 +15,7 @@ class ModelContainer : NSObject {
         self.model = model
     }
     
-    init() {
+    override init() {
         self.model = nil
     }
 }

@@ -17,13 +17,17 @@ class ViewController: UIViewController {
     var observeIntentionForLabel: ObserverIntention!
     var dismissOnEnterIntention: DismissOnEnterIntention!
     
-    init(nibName nibNameOrNil: String!, bundle nibBundleOrNil: NSBundle!) {
+    override init(nibName nibNameOrNil: String!, bundle nibBundleOrNil: NSBundle!) {
         modelContainer = ModelContainer()
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
     }
     
-    convenience init() {
+    convenience override init() {
         self.init(nibName: nil, bundle: nil)
+    }
+
+    required init(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
     
     override func loadView() {

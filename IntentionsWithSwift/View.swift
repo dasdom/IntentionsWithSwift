@@ -14,7 +14,7 @@ class View: UIView {
     var uppercaseButton: UIButton
     var label: UILabel
     
-    init(frame: CGRect) {
+    override init(frame: CGRect) {
         textField = UITextField()
         textField.setTranslatesAutoresizingMaskIntoConstraints(false)
         textField.borderStyle = .RoundedRect
@@ -45,8 +45,12 @@ class View: UIView {
         self.addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("V:|-40-[textField(40)]-20-[uppercaseButton(==reverseButton)]", options: .AlignAllRight, metrics: nil, views: viewsDictionary))
     }
     
-    convenience init() {
+    convenience override init() {
         self.init(frame: CGRectZero)
+    }
+
+    required init(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
     
 }

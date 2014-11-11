@@ -30,7 +30,7 @@ class ObserverIntention : NSObject {
         self.sourceObject.removeObserver(self)
     }
     
-    override func observeValueForKeyPath(keyPath: String!, ofObject object: AnyObject!, change: NSDictionary!, context: CMutableVoidPointer) {
+    override func observeValueForKeyPath(keyPath: String, ofObject object: AnyObject, change: [NSObject : AnyObject], context: UnsafeMutablePointer<Void>) {
         if keyPath == sourceKeyPath {
             updateValue()
         }
